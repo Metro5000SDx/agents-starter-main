@@ -47,10 +47,7 @@ export class Chat extends AIChatAgent<Env> {
       ...this.mcp.getAITools()
     };
 
-    const workersai = createWorkersAI({
-      binding: this.env.AI,
-      baseURL: this.env.AI_GATEWAY_URL // Add this env var if using AI Gateway
-    });
+    const workersai = createWorkersAI({ binding: env.AI });
     const model = workersai("@cf/meta/llama-3.1-8b-instruct");
 
     const stream = createUIMessageStream({
