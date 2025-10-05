@@ -48,7 +48,7 @@ export class Chat extends AIChatAgent<Env> {
     };
 
     const workersai = createWorkersAI({ binding: env.AI });
-    const model = workersai("@cf/meta/llama-3.1-8b-instruct");
+    const model = workersai("@cf/meta/llama-3.3-70b-instruct-fp8-fast");
 
     const stream = createUIMessageStream({
       execute: async ({ writer }) => {
