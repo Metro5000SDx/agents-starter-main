@@ -1,0 +1,16 @@
+{
+    "chat.implicitContext.suggestedContext": false,
+    "inlineChat.enableV2": true,
+    "chat.useChatSessionsForCloudButton": true,
+    "chat.todoListTool.enabled": true,
+    "chat.todoListTool.writeOnly": true,
+    "chat.mcp.discovery.enabled": {
+        "cursor-workspace": true,
+        "cursor-global": true,
+        "windsurf": true,
+        "claude-desktop": true
+    },
+    "chat.mcp.assisted.nuget.enabled": true,
+    "chat.math.enabled": false,
+    "chat.agent.thinkingStyle": "collapsedPreview"
+}
