@@ -12,5 +12,6 @@
     },
     "chat.mcp.assisted.nuget.enabled": true,
     "chat.math.enabled": false,
-    "chat.agent.thinkingStyle": "collapsedPreview"
+    "chat.agent.thinkingStyle": "collapsedPreview",
+    "markdown.validate.enabled": true
 }
