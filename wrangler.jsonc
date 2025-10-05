@@ -1,13 +1,13 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "my-chat-agent",
+  "name": "agents-starter-main",
   "main": "src/server.ts",
   "compatibility_date": "2025-08-03",
   "compatibility_flags": ["nodejs_compat"],
-  "ai": {
-    "binding": "AI",
-    "remote": true
-  },
+    "ai": {
+      "binding": "AI",
+      "remote": true
+    },
   "assets": {
     "directory": "public"
   },
